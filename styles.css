@@ -1,3 +1,93 @@
-* {
-    box-sizing: border-box;
+.canvas {
+    width: 500px;
+    height: 700px;
+    background-color: #240B36;
+    overflow: hidden;
+    box-shadow: 0 0 0 5px wheat;
+    border-radius: 10px;
+}
+
+.frame {
+    border: 50px solid #240B36;
+    width: 500px;
+    background-color: black;
+    margin: auto;
+    border-radius: 4px;
+
+}
+
+.one {
+    background-color: #F2DC5D;
+    width: 400px;
+    height: 200px;
+    margin: 25px auto ;
+    border-radius: 25px 25px 1px 1px;
+    filter: blur(2px);
+    transform: rotate(0.8deg);
+}
+
+.circle-one {
+    background-color: #A4031F;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    transform: translate(0px, 100px);
+}
+
+.square-one {
+    background-color: #F2A359;
+    width: 50px;
+    height: 50px;
+    transform: translate(25px, 25px);
+}
+
+.two {
+    background-color: #A4031F;
+    width: 450px;
+    height: 200px;
+    margin: auto;
+    border-radius: 25px 2px 25px 2px;
+    filter: blur(2px);
+    transform: rotate(-0.3deg);
+}
+
+.circle-two {
+    background-color: #F2A359 ;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    transform: translate(250px, 0px);
+}
+
+.square-two {
+    background-color: #A4031F;
+    width: 100px;
+    height: 100px;
+    transform: translate(50px, 50px);
+}
+
+.circle-twob {
+    background-color: #F2DC5D ;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    transform: translate(1px, -50px);
+}
+
+.three {
+    background-color: #F2A359;
+    width: 400px;
+    height: 200px;
+    margin: 25px auto;
+    border-radius: 1px 1px 20px 20px;
+    filter: blur(2px);
+    transform: rotate(0.4deg);
+}
+
+.circle-three {
+    background-color: #F2DC5D;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    transform: translate(1px, 0px);
 }
